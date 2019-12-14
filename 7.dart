@@ -26,3 +26,24 @@ void main(){
 
 // For Loop Structure
 // Initialize -> Condition Check -> Excute -> Increament
+
+
+// Labels
+
+void main(){
+  
+ outerLoop:  for(var i=0; i<3; i++){
+    
+    for(var j=0; j<3; j++){
+      
+        if(i == 2){
+          break outerLoop;
+        }else{
+            print("$i $j");    
+        }
+  
+    }
+    
+  }
+  
+}
